@@ -114,7 +114,7 @@
                 }
             },
             "spec": {
-                "replicas": 3,
+                "replicas": 1,
                 "selector": {
                     "matchLabels": {
                         "application": "${APPLICATION_NAME}"
@@ -157,7 +157,7 @@
                                 "env": [
                                     {
                                         "name": "ZK_REPLICAS",
-                                        "value": "3"
+                                        "value": "1"
                                     },
                                     {
                                         "name": "ZK_HEAP_SIZE",
